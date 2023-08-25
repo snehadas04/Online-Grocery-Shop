@@ -14,39 +14,39 @@ export const Vegs = (props) => {
 };
 
 export const Fruits = (props) => {
-  const{vid, vName, vPrice, vImg } = props.data;
+  const{fid, fName, fPrice, fImg } = props.data;
   return (
-    <div className='vegetables'>
-      <img src={vImg} />
+    <div className='fruits'>
+      <img src={fImg} />
       <div className='name'>
-        <p> <b>{ vName}</b> </p>
-        <p> ${vPrice}/kg</p>
+        <p> <b>{ fName}</b> </p>
+        <p> ${fPrice}/kg</p>
       </div>
     </div>
   );
 };
 
 export const NonVeg = (props) => {
-  const{vid, vName, vPrice, vImg } = props.data;
+  const{nid, nName, nPrice, nImg } = props.data;
   return (
-    <div className='vegetables'>
-      <img src={vImg} />
+    <div className='non-veg'>
+      <img src={nImg} />
       <div className='name'>
-        <p> <b>{ vName}</b> </p>
-        <p> ${vPrice}/kg</p>
+        <p> <b>{ nName}</b> </p>
+        <p> ${nPrice}/kg</p>
       </div>
     </div>
   );
 };
 
 export const Dairy = (props) => {
-  const{vid, vName, vPrice, vImg } = props.data;
+  const{did, dName, dPrice, dImg } = props.data;
   return (
-    <div className='vegetables'>
-      <img src={vImg} />
+    <div className='dairy'>
+      <img src={dImg} />
       <div className='name'>
-        <p> <b>{ vName}</b> </p>
-        <p> ${vPrice}/kg</p>
+        <p> <b>{ dName}</b> </p>
+        <p> ${dPrice}/kg</p>
       </div>
     </div>
   );
