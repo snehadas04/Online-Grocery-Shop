@@ -23,63 +23,63 @@ export const ITEMS = [
     {
         id: 1,
         itemNames: "Potato",
-        price: 19,
+        price: 28,
         itemImg: veg1,
     },
 
     {
         id: 2,
         itemNames: "Cauliflower",
-        price: 30,
+        price: 32,
         itemImg: v2,
     },
 
     {
         id: 3,
         itemNames: "Onion",
-        price: 40,
+        price: 90,
         itemImg: v3,
     },
     
     {
         id: 4,
         itemNames: "Bitter Root",
-        price: 23,
+        price: 40,
         itemImg: v4,
     },
     
     {
-        id: ,
-        itemNames: "",
-        price: ,
+        id: 5,
+        itemNames: "Carrot",
+        price: 63,
+        itemImg: v5,
+    },
+    
+    {
+        id: 6,
+        itemNames: "spinach",
+        price: 45,
+        itemImg: v6,
+    },
+    {
+        id: 7,
+        itemNames: "Drum Stick",
+        price: 74,
         itemImg: v,
     },
     
     {
-        id: ,
-        itemNames: "",
-        price: ,
-        itemImg: v,
-    },
-    {
-        id: ,
-        itemNames: "",
-        price: ,
-        itemImg: v,
+        id: 8,
+        itemNames: "Raddish",
+        price: 72,
+        itemImg: v8,
     },
     
     {
-        id: ,
-        itemNames: "",
-        price: ,
-        itemImg: v,
-    },
-    
-    {
-        id: ,
-        itemNames: "",
-        price: ,
-        itemImg: v,
+        id:9,
+        itemNames: "Brocoli",
+        price: 85,
+        itemImg: v9,
     },
     
     {
