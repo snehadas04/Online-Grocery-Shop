@@ -2,8 +2,7 @@ import React from 'react';
 
 export const Shop = () => {
   return (
-    <div>
-      SHOP
+    <div className='shop'>
     </div>
   );
 };
