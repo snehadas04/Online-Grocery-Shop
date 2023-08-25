@@ -11,5 +11,5 @@ export const Navbar = () => {
         <Link to="/cart"> <ShoppingCart size={32} /> </Link>
       </div>
     </div>
-  )
+  );
 };
