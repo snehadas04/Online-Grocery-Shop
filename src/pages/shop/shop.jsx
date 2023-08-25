@@ -9,9 +9,9 @@ export const Shop = () => {
         <h1> Vegetable Store</h1>
       </div>
       <div className='vegs'> 
-        {ITEMS.map((items) => {
-          <Items />
-        })}
+        {ITEMS.map((items) => (
+          <Items data={items}/>
+        ))}
       </div>
     </div>
   );
