@@ -1,23 +1,23 @@
 import veg1 from "./images/veg1.jpg";
 import v2 from "./images/v2.jpg"
-import v3 from "./images/v2.jpg"
-import v4 from "./images/v2.jpg"
-import v5 from "./images/v2.jpg"
-import v6 from "./images/v2.jpg"
-import v7 from "./images/v2.jpg"
-import v8 from "./images/v2.jpg"
-import v9 from "./images/v2.jpg"
-import v10 from "./images/v2.jpg"
-import v11 from "./images/v2.jpg"
-import v12 from "./images/v2.jpg"
-import v13 from "./images/v2.jpg"
-import v14 from "./images/v2.jpg"
-import v15 from "./images/v2.jpg"
-import v16 from "./images/v2.jpg"
-import v17 from "./images/v2.jpg"
-import v18 from "./images/v2.jpg"
-import v19 from "./images/v2.jpg"
-import v20 from "./images/v2.jpg"
+import v3 from "./images/v3.jpg"
+import v4 from "./images/v4.jpg"
+import v5 from "./images/v5.jpg"
+import v6 from "./images/v6.jpg"
+import v7 from "./images/v7.jpg"
+import v8 from "./images/v8.jpg"
+import v9 from "./images/v9.jpg"
+import v10 from "./images/v10.jpg"
+import v11 from "./images/v11.jpg"
+import v12 from "./images/v12.jpg"
+import v13 from "./images/v13.jpg"
+import v14 from "./images/v14.jpg"
+import v15 from "./images/v15.jpg"
+import v16 from "./images/v16.jpg"
+import v17 from "./images/v17.jpg"
+import v18 from "./images/v18.jpg"
+import v19 from "./images/v19.jpg"
+import v20 from "./images/v20.jpg"
 
 export const ITEMS = [
     {
@@ -65,7 +65,7 @@ export const ITEMS = [
         id: 7,
         itemNames: "Drum Stick",
         price: 74,
-        itemImg: v,
+        itemImg: v7,
     },
     
     {
@@ -83,104 +83,76 @@ export const ITEMS = [
     },
     
     {
-        id: ,
-        itemNames: "",
-        price: ,
-        itemImg: v,
+        id: 10,
+        itemNames: "Cabbage",
+        price: 56,
+        itemImg: v10,
     },
     {
-        id: ,
-        itemNames: "",
-        price: ,
-        itemImg: v,
-    },
-    
-    {
-        id: ,
-        itemNames: "",
-        price: ,
-        itemImg: v,
+        id: 11,
+        itemNames: "Capcicum",
+        price: 97,
+        itemImg: v11,
     },
     
     {
-        id: ,
-        itemNames: "",
-        price: ,
-        itemImg: v,
+        id: 12,
+        itemNames: "Colour Bellpaper",
+        price: 110,
+        itemImg: v12,
     },
     
     {
-        id: ,
-        itemNames: "",
-        price: ,
-        itemImg: v,
-    },
-    {
-        id: ,
-        itemNames: "",
-        price: ,
-        itemImg: v,
+        id: 13,
+        itemNames: "Pumpkine",
+        price: 46,
+        itemImg: v13,
     },
     
     {
-        id: ,
-        itemNames: "",
-        price: ,
-        itemImg: v,
+        id: 14,
+        itemNames: "Cucumber",
+        price: 38,
+        itemImg: v14,
+    },
+    {
+        id: 15,
+        itemNames: "Pea",
+        price: 65,
+        itemImg: v15,
     },
     
     {
-        id: ,
-        itemNames: "",
-        price: ,
-        itemImg: v,
+        id: 16,
+        itemNames: "Ladies Finger",
+        price: 53,
+        itemImg: v16,
     },
     
     {
-        id: ,
-        itemNames: "",
-        price: ,
-        itemImg: v,
-    },
-    {
-        id: ,
-        itemNames: "",
-        price: ,
-        itemImg: v,
+        id: 17,
+        itemNames: "Tomato",
+        price: 96,
+        itemImg: v17,
     },
     
     {
-        id: ,
-        itemNames: "",
-        price: ,
-        itemImg: v,
+        id: 18,
+        itemNames: "Beet Root",
+        price: 50,
+        itemImg: v18,
+    },
+    {
+        id: 19,
+        itemNames: "Chilli",
+        price: 34,
+        itemImg: v19,
     },
     
     {
-        id: ,
-        itemNames: "",
-        price: ,
-        itemImg: v,
-    },
-    
-    {
-        id: ,
-        itemNames: "",
-        price: ,
-        itemImg: v,
-    },
-    {
-        id: ,
-        itemNames: "",
-        price: ,
-        itemImg: v,
-    },
-    
-    {
-        id: ,
-        itemNames: "",
-        price: ,
-        itemImg: v,
+        id: 20,
+        itemNames: "Corn",
+        price: 20,
+        itemImg: v20,
     },
 ];
-
