@@ -10,31 +10,31 @@ import f8 from "./images/f8.jpg";
 
 export const FRUIT = [
     {
-        fid: ,
-        fName: "",
-        fPrice: ,
-        fImg: f,
+        fid: 1,
+        fName: "Apple",
+        fPrice: 85,
+        fImg: f1,
     },
 
     {
-        fid: ,
-        fName: "",
-        fPrice: ,
-        fImg: f,
+        fid: 2,
+        fName: "Banana",
+        fPrice: 25,
+        fImg: f2,
     },
 
     {
-        fid: ,
-        fName: "",
-        fPrice: ,
-        fImg: f,
+        fid: 3,
+        fName: "Orange",
+        fPrice: 73,
+        fImg: f3,
     },
 
     {
-        fid: ,
-        fName: "",
-        fPrice: ,
-        fImg: f,
+        fid: 4,
+        fName: "Water Melon",
+        fPrice: 48,
+        fImg: f4,
     },
 
     {
