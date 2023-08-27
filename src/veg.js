@@ -154,5 +154,5 @@ export const VEG = [
         vName: "Corn",
         vPrice: 20,
         vImg: v20,
-    },
+    }
 ];

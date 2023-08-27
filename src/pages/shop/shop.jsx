@@ -1,9 +1,11 @@
 import React from 'react';
 import{VEG} from "../../veg";
 import {Vegs} from "./items";
+import {FRUIT} from '../../fruit';
 import {Fruits} from "./items"
 import {NonVeg} from "./items"
 import {Dairy} from "./items"
+
 
 export const Shop = () => {
   return (
@@ -21,7 +23,7 @@ export const Shop = () => {
         <h1> Fruits Store</h1>
       </div>
       <div className='frts'> 
-        {VEG.map((item) => (
+        {FRUIT.map((item) => (
           <Fruits data={item}/>
         ))}
       </div>
