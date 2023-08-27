@@ -30,37 +30,37 @@ export const NONVEG = [
     },
 
     {
-        nid: ,
-        nName: "",
-        nPrice: ,
-        nImg: n,
+        nid: 4,
+        nName: "Whole Skinny Chicken",
+        nPrice: 650,
+        nImg: n4,
     },
 
     {
-        nid: ,
-        nName: "",
-        nPrice: ,
-        nImg: n,
+        nid: 5,
+        nName: "Whole Chicken",
+        nPrice: 625,
+        nImg: n5,
     },
 
     {
-        nid: ,
-        nName: "",
-        nPrice: ,
-        nImg: n,
+        nid: 6,
+        nName: "Chicken DumStick",
+        nPrice: 200,
+        nImg: n6,
     },
 
     {
-        nid: ,
-        nName: "",
-        nPrice: ,
-        nImg: n,
+        nid: 7,
+        nName: "Mutton Cut",
+        nPrice: 680,
+        nImg: n7,
     },
 
     {
-        nid: ,
-        nName: "",
-        nPrice: ,
-        nImg: n,
+        nid: 8,
+        nName: "Boneless Mutton",
+        nPrice: 820,
+        nImg: n8,
     }
 ];
