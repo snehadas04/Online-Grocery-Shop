@@ -2,11 +2,11 @@ import React from 'react';
 import{VEG} from "../../veg";
 import {Vegs} from "./items";
 import {FRUIT} from '../../fruit';
-import {Fruits} from "./items"
+import {Fruits} from "./items";
 import {NONVEG} from '../../nonveg';
-import {NonVeg} from "./items"
-import {Dairy} from "./items"
-
+import {NonVeg} from "./items";
+import {DAIRY} from '../../dairy';
+import {Dairy} from "./items";
 
 export const Shop = () => {
   return (
@@ -42,7 +42,7 @@ export const Shop = () => {
         <h1> Dairy Store</h1>
       </div>
       <div className='dairy'> 
-        {VEG.map((item) => (
+        {DAIRY.map((item) => (
           <Dairy data={item}/>
         ))}
       </div>

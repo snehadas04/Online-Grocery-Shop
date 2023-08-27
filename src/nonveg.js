@@ -5,7 +5,7 @@ import n4 from "./images/n4.jpg";
 import n5 from "./images/n5.jpg";
 import n6 from "./images/n6.jpg";
 import n7 from "./images/n7.jpg";
-import n8 from "./images/n9.jpg";
+import n8 from "./images/n8.jpg";
 
 export const NONVEG = [
     {
