@@ -95,5 +95,5 @@ export const FRUIT = [
         fName: "Dragon Fruit",
         fPrice: 105,
         fImg: f12,
-    },
+    }
 ];

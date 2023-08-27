@@ -3,6 +3,7 @@ import{VEG} from "../../veg";
 import {Vegs} from "./items";
 import {FRUIT} from '../../fruit';
 import {Fruits} from "./items"
+import {NONVEG} from '../../nonveg';
 import {NonVeg} from "./items"
 import {Dairy} from "./items"
 
@@ -31,8 +32,8 @@ export const Shop = () => {
       <div className='"shopTitle'>
         <h1> Non-Veg Store</h1>
       </div>
-      <div className='n-vg'> 
-        {VEG.map((item) => (
+      <div className='nvg'> 
+        {NONVEG.map((item) => (
           <NonVeg data={item}/>
         ))}
       </div>
