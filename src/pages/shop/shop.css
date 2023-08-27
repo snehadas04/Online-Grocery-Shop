@@ -6,16 +6,20 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.veges, .frts, .nvg, .dairy{
+.veges, .frts, .nvg, .dry{
     width: 100;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     place-items: center;
-    background-color: darkkhaki;
 }
 
-.vegetables{
+.veges { background-color: darkkhaki; }
+.frts { background-color: rgb(251, 220, 225); }
+.nvg { background-color: burlywood; }
+.dry { background-color: rgb(142, 234, 203);}
+
+.vegetables, .fruits, .non-veg, .dairy{
     width: 300px;
     height: 350px;
     display: flex;

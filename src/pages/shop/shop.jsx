@@ -31,7 +31,7 @@ export const Shop = () => {
         ))}
       </div>
 
-      <div className='"shopTitle'>
+      <div className='shopTitle'>
         <h1> Non-Veg Store</h1>
       </div>
       <div className='nvg'> 
@@ -40,10 +40,10 @@ export const Shop = () => {
         ))}
       </div>
 
-      <div className='"shopTitle'>
+      <div className='shopTitle'>
         <h1> Dairy Store</h1>
       </div>
-      <div className='dairy'> 
+      <div className='dry'> 
         {DAIRY.map((item) => (
           <Dairy data={item}/>
         ))}
