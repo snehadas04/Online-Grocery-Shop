@@ -44,23 +44,23 @@ export const DAIRY = [
     },
 
     {
-        did: ,
-        dName: "",
-        dPrice: ,
-        dImg: d,
+        did: 7,
+        dName: "Chocolate",
+        dPrice: 250,
+        dImg: d7,
     },
 
     {
-        did: ,
-        dName: "",
-        dPrice: ,
-        dImg: d,
+        did: 8,
+        dName: "Butter",
+        dPrice: 300,
+        dImg: d8,
     },
 
     {
-        did: ,
-        dName: "",
-        dPrice: ,
-        dImg: d,
-    },
+        did: 9,
+        dName: "Ghee",
+        dPrice: 380,
+        dImg: d9,
+    }
 ];
