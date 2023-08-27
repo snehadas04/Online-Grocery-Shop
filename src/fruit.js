@@ -6,6 +6,10 @@ import f5 from "./images/f5.jpg";
 import f6 from "./images/f6.jpg";
 import f7 from "./images/f7.jpg";
 import f8 from "./images/f8.jpg";
+import f9 from "./images/f9.jpg";
+import f10 from "./images/f10.jpg";
+import f11 from "./images/f11.jpg";
+import f12 from "./images/f12.jpg";
 
 
 export const FRUIT = [
@@ -66,30 +70,30 @@ export const FRUIT = [
     },
 
     {
-        fid: ,
-        fName: "",
-        fPrice: ,
-        fImg: f,
+        fid: 9,
+        fName: "Guava",
+        fPrice: 35,
+        fImg: f9,
     },
 
     {
-        fid: ,
-        fName: "",
-        fPrice: ,
-        fImg: f,
+        fid: 10,
+        fName: "PineApple",
+        fPrice: 50,
+        fImg: f10,
     },
 
     {
-        fid: ,
-        fName: "",
-        fPrice: ,
-        fImg: f,
+        fid: 11,
+        fName: "Grapes",
+        fPrice: 62,
+        fImg: f11,
     },
 
     {
-        fid: ,
-        fName: "",
-        fPrice: ,
-        fImg: f,
+        fid: 12,
+        fName: "Dragon Fruit",
+        fPrice: 105,
+        fImg: f12,
     },
 ];
