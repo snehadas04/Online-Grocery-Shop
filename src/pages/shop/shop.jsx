@@ -8,6 +8,8 @@ import {NonVeg} from "./items";
 import {DAIRY} from '../../dairy';
 import {Dairy} from "./items";
 
+import "./shop.css";
+
 export const Shop = () => {
   return (
     <div className='shop'>

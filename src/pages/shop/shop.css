@@ -1,0 +1,30 @@
+.shopTitle{
+    margin-top: 80PX;
+    text-align: center;
+    font-size: 50PX;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.veges{
+    width: 100;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.vegetables{
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vegetables img{
+    width: 280px;
+}
