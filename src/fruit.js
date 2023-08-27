@@ -38,31 +38,31 @@ export const FRUIT = [
     },
 
     {
-        fid: ,
-        fName: "",
-        fPrice: ,
-        fImg: f,
+        fid: 5,
+        fName: "Promaganet",
+        fPrice: 55,
+        fImg: f5,
     },
 
     {
-        fid: ,
-        fName: "",
-        fPrice: ,
-        fImg: f,
+        fid: 6,
+        fName: "Stawberry",
+        fPrice: 45,
+        fImg: f6,
     },
 
     {
-        fid: ,
-        fName: "",
-        fPrice: ,
-        fImg: f,
+        fid: 7,
+        fName: "Mango",
+        fPrice: 50,
+        fImg: f7,
     },
 
     {
-        fid: ,
-        fName: "",
-        fPrice: ,
-        fImg: f,
+        fid: 8,
+        fName: "Qiwi",
+        fPrice: 120,
+        fImg: f8,
     },
 
     {
