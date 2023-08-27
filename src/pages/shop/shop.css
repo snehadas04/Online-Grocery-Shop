@@ -1,30 +1,31 @@
 .shopTitle{
-    margin-top: 80PX;
+    margin-top: 30PX;
     text-align: center;
-    font-size: 50PX;
+    font-size: 40PX;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.veges{
+.veges, .frts, .nvg, .dairy{
     width: 100;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     place-items: center;
+    background-color: darkkhaki;
 }
 
 .vegetables{
-    border-radius: 15px;
     width: 300px;
     height: 350px;
-    margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.vegetables img{
-    width: 280px;
+img{
+    height: 200px;
+    width: 270px;
+    border-radius: 25px;
 }
