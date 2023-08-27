@@ -9,38 +9,38 @@ import d8 from "./images/d9.jpg"
 export const DAIRY = [
 
     {
-        did: ,
-        dName: "",
-        dPrice: ,
-        dImg: d,
+        did: 1,
+        dName: "Milk",
+        dPrice: 64,
+        dImg: d1,
     },
 
     {
-        did: ,
-        dName: "",
-        dPrice: ,
-        dImg: d,
+        did: 2,
+        dName: "Curd",
+        dPrice: 57,
+        dImg: d2,
     },
 
     {
-        did: ,
-        dName: "",
-        dPrice: ,
-        dImg: d,
+        did: 3,
+        dName: "Chesse",
+        dPrice: 280,
+        dImg: d3,
     },
 
     {
-        did: ,
-        dName: "",
-        dPrice: ,
-        dImg: d,
+        did: 5,
+        dName: "Panner",
+        dPrice: 315,
+        dImg: d5,
     },
 
     {
-        did: ,
-        dName: "",
-        dPrice: ,
-        dImg: d,
+        did: 6,
+        dName: "Cream",
+        dPrice: 212,
+        dImg: d6,
     },
 
     {
