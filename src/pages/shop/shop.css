@@ -20,6 +20,7 @@
 .dry { background-color: rgb(142, 234, 203);}
 
 .vegetables, .fruits, .non-veg, .dairy{
+    margin-top: 30px;
     width: 300px;
     height: 350px;
     display: flex;
@@ -32,4 +33,32 @@ img{
     height: 200px;
     width: 270px;
     border-radius: 25px;
+}
+
+.name{
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.vegetables, .fruits, .non-veg, .dairy:hover{
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+
+.addCart{
+    color: beige;
+    background-color: rgb(37, 37, 255);
+    border-color: darkblue;
+    border-radius: 20px;
+    width: 130px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.addCart:hover{
+    background-color: rgb(174, 174, 243);
+    color: midnightblue;
+    font-weight: bolder;
+    cursor: pointer;
 }

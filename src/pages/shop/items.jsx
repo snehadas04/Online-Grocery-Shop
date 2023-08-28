@@ -9,6 +9,7 @@ export const Vegs = (props) => {
         <p> <b>{ vName}</b> </p>
         <p> ${vPrice}/kg</p>
       </div>
+      <button className='addCart'> Add To Cart </button>
     </div>
   );
 };
@@ -22,6 +23,7 @@ export const Fruits = (props) => {
         <p> <b>{ fName}</b> </p>
         <p> ${fPrice}/kg</p>
       </div>
+      <button className='addCart'> Add To Cart </button>
     </div>
   );
 };
@@ -35,6 +37,7 @@ export const NonVeg = (props) => {
         <p> <b>{ nName}</b> </p>
         <p> ${nPrice}/kg</p>
       </div>
+      <button className='addCart'> Add To Cart </button>
     </div>
   );
 };
@@ -48,6 +51,7 @@ export const Dairy = (props) => {
         <p> <b>{ dName}</b> </p>
         <p> ${dPrice}/kg</p>
       </div>
+      <button className='addCart'> Add To Cart </button>
     </div>
   );
 };
