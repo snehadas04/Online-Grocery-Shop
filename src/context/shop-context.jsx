@@ -1,4 +1,5 @@
 import React, { createContext } from 'react';
+import {VEG} from "../veg";
 
 export const ShopContext = createContext(null);
 
@@ -17,8 +18,8 @@ export const ShopContextProvider = (props) => {
     setCartItems((prev) => ({...prev, [itemId]: prev[itemId] +1}));
   };
 
-  const addToCart = (itemId) =>{
-    setCartItems((prev) => ({...prev, [itemId]: prev[itemId] +1}));
+  const removeFromCart = (itemId) =>{
+    setCartItems((prev) => ({...prev, [itemId]: prev[itemId] -1}));
   };
   return (
     <ShopContext.Provider>(props.product)</ShopContext.Provider>
