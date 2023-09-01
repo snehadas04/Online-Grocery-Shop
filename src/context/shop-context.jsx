@@ -1,9 +1,6 @@
 import React, { createContext } from 'react';
 
 export const ShopContext = createContext(null);
-{
-  1:2
-}
 
 const getDefaultCart = () => {
   let cart = {}
@@ -17,8 +14,12 @@ export const ShopContextProvider = (props) => {
   const [cartItems, setCartItems] = useState(getDefaultCart());
 
   const addToCart = (itemId) =>{
-    setCartItems((prev) => ({...prev, [itemId]: }))
-  }
+    setCartItems((prev) => ({...prev, [itemId]: prev[itemId] +1}));
+  };
+
+  const addToCart = (itemId) =>{
+    setCartItems((prev) => ({...prev, [itemId]: prev[itemId] +1}));
+  };
   return (
     <ShopContext.Provider>(props.product)</ShopContext.Provider>
   );
