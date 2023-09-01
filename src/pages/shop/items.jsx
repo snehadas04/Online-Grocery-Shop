@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import {ShopContext} from '../../context/shop-context'
 
 export const Vegs = (props) => {
   const{vid, vName, vPrice, vImg } = props.data;
