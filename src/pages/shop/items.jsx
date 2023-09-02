@@ -4,7 +4,7 @@ import { useContext } from 'react';
 
 export const Vegs = (props) => {
   const{vid, vName, vPrice, vImg } = props.data;
-  const{addToCart} = useContext(ShopContext);
+  const{addToCart, cartItems} = useContext(ShopContext);
   return (
     <div className='vegetables'>
       <img src={vImg} />
@@ -12,7 +12,9 @@ export const Vegs = (props) => {
         <p> <b>{ vName}</b> </p>
         <p> ${vPrice}/kg</p>
       </div>
-      <button className='addCart' onClick={() => addToCart(vid)}> Add To Cart </button>
+      <button className='addCart' onClick={() => addToCart(vid)}> 
+        Add To Cart {}
+      </button>
     </div>
   );
 };
