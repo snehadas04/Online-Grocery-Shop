@@ -5,6 +5,8 @@ import { useContext } from 'react';
 export const Vegs = (props) => {
   const{vid, vName, vPrice, vImg } = props.data;
   const{addToCart, cartItems} = useContext(ShopContext);
+  const cartItemAmount = 
+
   return (
     <div className='vegetables'>
       <img src={vImg} />
