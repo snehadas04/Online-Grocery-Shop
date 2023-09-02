@@ -12,7 +12,7 @@ export const Vegs = (props) => {
         <p> <b>{ vName}</b> </p>
         <p> ${vPrice}/kg</p>
       </div>
-      <button className='addCart' onClick={() => addToCart()}> Add To Cart </button>
+      <button className='addCart' onClick={() => addToCart(vid)}> Add To Cart </button>
     </div>
   );
 };
